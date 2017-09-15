@@ -1,0 +1,58 @@
+\documentclass[journal]{IEEEtran}
+
+
+% ------------ package ------------
+\usepackage{blindtext}
+\usepackage{graphicx}
+% ------------ package end ------------
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+
+% ------------ title ------------
+\title{Threat Modeling for SQLite}
+\author{Qiyang~Gu}
+\maketitle
+% ------------ title end ------------
+
+
+% ------------ abstract ------------
+\begin{abstract}
+\blindtext
+\end{abstract}
+% ------------ abstarct end ------------
+
+% ------------ keywords ------------
+\begin{IEEEkeywords}
+sqlite3, database, threat
+\end{IEEEkeywords}
+% ------------ keywords end ------------
+
+
+\section{Introduction to sqlite}
+\IEEEPARstart{S}QLite is an open source SQL database engine, written totally by C. It is self-contained (It has very few dependencies.), serverless (It does not have a separate server process.), zero-configuration (It does not need to be "installed" before being used.), and transactional (All changes and queries are Atomic, Consistent, Isolated, and Durable.). What's more, it is very lightweight. The library size can be less than 500KiB with all features enabled.
+
+SQLite does not have a separate server process while running. It reads and writes a database file which saves on local disk. The database file is platform-independent, which means you can freely copy it among different systems. All these features make SQLite a very good choice for developers when they consider which database to use. Now, almost all the Linux systems, as well as the latest macOS, have pre-installed SQLite.
+
+
+
+\subsection{Test}
+\blindtext
+        
+
+\section{Conclusion}
+\blindtext
+        
+        
+\appendices
+
+\section{}
+It's first appendices
+        
+\section{}
+It's second appendices
+
+    
+\end{document}
