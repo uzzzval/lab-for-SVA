@@ -1,7 +1,7 @@
 .DS_Store
-hw1/main.aux
-hw1/main.fdb_latexmk
-hw1/main.fls
-hw1/main.log
-hw1/main.pdf
-hw1/main.synctex.gz
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.synctex.gz
